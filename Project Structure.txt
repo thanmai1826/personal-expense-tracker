@@ -1,0 +1,38 @@
+Personal-Expense-Tracker/
+├── app.py
+├── requirements.txt
+├── config.py
+├── run.py
+├── instance/
+│   └── database.db
+├── .gitignore
+├── LICENSE
+├── README.md
+├── Personal_Expense_Tracker/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── extensions.py
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── auth.py
+│   │   ├── expenses.py
+│   │   ├── dashboard.py
+│   │   └── admin.py
+│   ├── templates/
+│   │   ├── base.html
+│   │   ├── auth/
+│   │   │   ├── login.html
+│   │   │   └── register.html
+│   │   ├── dashboard/
+│   │   │   └── index.html
+│   │   ├── expenses/
+│   │   │   ├── list.html
+│   │   │   ├── add.html
+│   │   │   └── edit.html
+│   │   └── admin/
+│   │       └── users.html
+│   └── static/
+│       ├── css/
+│       │   └── style.css
+│       └── js/
+│           └── main.js
